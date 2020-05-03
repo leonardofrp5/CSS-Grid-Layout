@@ -34,11 +34,4 @@ body {
 
 .item:nth-of-type(4) {
   grid-column: 6 / span 2;
-  grid-row: 2 / span 1;
-}
-
-
-
-.item .item {
-  background-color: lightgreen;
 }
