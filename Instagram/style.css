@@ -3,11 +3,17 @@ body {
   margin: 0;
 }
 
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 293px));
+  grid-gap: 28px;
+  justify-content: center;
+}
+
 .post {
   cursor: pointer;
   position: relative;
   display: block;
-  width: 500px;
 }
 
 .post-img {
@@ -38,9 +44,15 @@ body {
 }
 
 .post-likes, .post-comments {
-  width: 80PX;
+  width: 40PX;
   margin: 5PX;
   font-weight: bold;
   text-align: center;
   display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+  .post-list {
+    grid-gap: 3px;
+  }
 }
