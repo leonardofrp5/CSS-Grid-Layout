@@ -2,3 +2,4 @@
 Repo donde se hacen una praticas de **CSS-Grid-Layout** y para consolidad conceptos de este tema
 
 vamoos!
+mejorar el readme
